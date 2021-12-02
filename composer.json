@@ -1,0 +1,16 @@
+{
+  "name": "dpi/drupal-phpunit-bootstrap",
+  "description": "The finder scripts as found in drupal/core bootstrap",
+  "homepage": "https://github.com/dpi/drupal-phpunit-bootstrap",
+  "license": "GPL-2.0-or-later",
+  "type": "package",
+  "minimum-stability": "dev",
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "dpi\\DrupalPhpunitBootstrap\\": "src/"
+    }
+  }
+}
